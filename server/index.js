@@ -5,7 +5,7 @@ require('dotenv').config()
 
 
 app.get('/', (req, res) => {
-    res.send('Hello I am from server')
+    res.send('Hello I am from backend')
 })
 
 const port = process.env.PORT || 5000; 
